@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | E-commerce App</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/124ff44aed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar-container">
+
+            <!-- ------------------- Navbar left start ------------------- -->
+            <div class="navbar-left">
+                <div class="hamburger-icon nav-icon-badge">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="nav-logo">
+                  <img
+                    src="./images/logo-ecom.png"
+                    alt="logo"
+                  />
+                </div>
+            </div>
+    
+            <!-- ----------------------- NavBar left end --------------- -->
+        
+            <!----------------- Searchbox start -------------------->
+            <div class="search-box flex-row">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input class="search-input" type="search" name="product-search" id="product-search" placeholder="Search">
+            </div>
+
+            <!----------------- Searchbox end ---------------------->
+            <!-- ---------------------- Navbar right start -------------------- -->
+        
+            <div class="right-navbar">
+                <div class="nav-icons list-style-none ">
+                    <a href="/" class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fas fa-user"></i>
+                      </span>
+                      <span class="nav-icon-text">Login</span>
+                    </a>
+                    <a href="/"
+                      class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge-count">10</span>
+                      </span>
+                      <span class="nav-icon-text">Wishlist</span>
+                    </a>
+                    <a href="/" class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge-count">10</span>
+                      </span>
+                      <span class="nav-icon-text">Cart</span>
+                    </a>
+                </div>
+              </div>
+            <!-- ----------------------- Navbar right end -------------------------- -->
+          </nav>
+    </header>
+
+    <!------------------- Product Categories Ribbon start --------------------------->
+    <div class="ribbon flex-row">
+        <div class="card-vertical text-overlay-container product-category card-shadow">
+            <div class="card-body">
+                <img class="card-img" src="./images/unisex.png" alt="unisex-category"/>
+            </div>
+            <div class="gray-tile"></div>
+            <div class="text-overlay">
+                UNISEX 
+            </div>
+        </div>
+        <div class="card-vertical text-overlay-container product-category card-shadow">
+            <div class="card-body">
+                <img class="card-img" src="./images/mens-category.png" alt="men-category"/>
+            </div>
+            <div class="gray-tile"></div>
+            <div class="text-overlay">
+                MEN
+            </div>
+        </div>
+        <div class="card-vertical text-overlay-container product-category card-shadow">
+            <div class="card-body">
+                <img class="card-img" src="./images/women.png" alt="women-category"/>
+            </div>
+            <div class="gray-tile"></div>
+            <div class="text-overlay">
+                WOMEN
+            </div>
+        </div>
+        <div class="card-vertical text-overlay-container product-category card-shadow">
+            <div class="card-body">
+                <img class="card-img flui-img" src="./images/kids-boys.png" alt="kids-boys-category"/>
+            </div>
+            <div class="gray-tile"></div>
+            <div class="text-overlay">
+                KIDS BOYS
+            </div>
+        </div>
+        <div class="card-vertical text-overlay-container product-category card-shadow">
+            <div class="card-body">
+                <img class="card-img" src="./images/kids-girls.png" alt="kids-girls-category"/>
+            </div>
+            <div class="gray-tile"></div>
+            <div class="text-overlay">
+                KIDS GIRLS
+            </div>
+        </div>
+
+        <!------------------- Product Categories Ribbon end --------------------------->
+    </div>
+    <main>
+        <div class="main-shelf"></div>
+
+        <!-- ------------------------Product announcement ribbon starts -->
+        <div class="announcement ribbon flex-row">
+            <div class="card-horizontal new-arrivals card-shadow">
+                <img class="card-img" src="./images/mens-category.png" alt="card image" />
+                
+                
+                <div class="card-body">
+                    <span class="card-badge-text">New Arrivals</span>
+                  <h1 class="card-title">Summer Collection</h1>
+                  <h6 class="card-title-sub ">Men</h6>
+                  <p class="card-description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-btn link-btn button-primary">Know More</a>
+                </div>
+              </div>
+
+              <div class="card-horizontal new-arrivals card-shadow">
+                <img class="card-img" src="./images/women.png" alt="card image" />
+                
+                
+                <div class="card-body">
+                    <span class="card-badge-text">New Arrivals</span>
+                  <h1 class="card-title">Summer Collection</h1>
+                  <h6 class="card-title-sub ">Women</h6>
+                  <p class="card-description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-btn link-btn button-primary">Know More</a>
+                </div>
+              </div>
+
+              <div class="card-horizontal new-arrivals card-shadow">
+                <img class="card-img" src="./images/kids-boys.png" alt="card image" />
+                
+                
+                <div class="card-body">
+                    <span class="card-badge-text">New Arrivals</span>
+                  <h1 class="card-title">Summer Collection</h1>
+                  <h6 class="card-title-sub ">Kids</h6>
+                  <p class="card-description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="card-btn link-btn button-primary">Know More</a>
+                </div>
+              </div>
+        </div>
+        <!-- --------------------------Product announcement ribbon ends -->
+    </main>
+</body>
+</html>
