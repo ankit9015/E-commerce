@@ -3,6 +3,7 @@
 html {
     --gray : rgb(179, 176, 176);
     --black: rgb(39, 37, 37);
+    --pure-white: rgb(255, 255, 255);
 }
 
  /* -------------------------- navigation bar start --------------------------- */
@@ -16,7 +17,7 @@ html {
 .search-box {
     justify-self: center;
     align-self: center;
-    background-color: white;
+    background-color: var(--pure-white);
     border-radius: 5px;
     border: solid 2px var(--gray);
     font-size: 2rem;
@@ -101,9 +102,4 @@ html {
     height: auto;
     object-fit: contain;
 }
-
-
   /*-- ------------------------Product announcement ribbon ends -- */
-
-
-
