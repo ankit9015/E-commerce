@@ -1,8 +1,12 @@
-@import url("https://socket-ui.netlify.app/components/components.css");
-@import url("./product-page.css");
+
+
+@import url(https://socket-ui.netlify.app/components/components.css);
+@import url(./product-page.css);
+@import url(./cart-page.css);
 
 html {
     --gray : rgb(179, 176, 176);
+    --dark-gray: gray;
     --black: rgb(39, 37, 37);
     --pure-white: rgb(255, 255, 255);
     --red: rgb(255, 0, 34);
