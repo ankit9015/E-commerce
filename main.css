@@ -1,8 +1,11 @@
 
+
 @import url(https://socket-ui.netlify.app/components/components.css);
 @import url(./product-page.css);
 @import url(./cart-page.css);
 @import url(./login.css);
+@import url("./wishlist.css");
+
 
 
 html {
