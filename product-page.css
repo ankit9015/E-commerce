@@ -72,6 +72,9 @@
     align-items: center;
 }
 
+.card-vertical {
+    padding: 5px;
+}
 
 
 .wishlist-icon {
