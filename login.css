@@ -1,0 +1,18 @@
+.form-card.card-vertical {
+    width: 80vw;
+    height: auto;
+    padding: 3rem;
+    gap: 5px;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.login-main {
+    height: 100vh;
+}
+
+.form-card.card-vertical .socket-input {
+    width: 100%;
+}
