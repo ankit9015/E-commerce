@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Ecommerce</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://socket-ui.netlify.app/components/components.css"/>
+    <script src="https://kit.fontawesome.com/124ff44aed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar-container">
+
+            <!-- ------------------- Navbar left start ------------------- -->
+            <div class="navbar-left">
+                <div class="hamburger-icon nav-icon-badge">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="nav-logo">
+                  <img
+                    src="./images/logo-ecom.png"
+                    alt="logo"
+                  />
+                </div>
+            </div>
+    
+            <!-- ----------------------- NavBar left end --------------- -->
+        
+            <!----------------- Searchbox start -------------------->
+            <div class="search-box flex-row">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input class="search-input" type="search" name="product-search" id="product-search" placeholder="Search">
+            </div>
+
+            <!----------------- Searchbox end ---------------------->
+            <!-- ---------------------- Navbar right start -------------------- -->
+        
+            <div class="right-navbar">
+                <div class="nav-icons list-style-none ">
+                    <a href="/" class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fas fa-user"></i>
+                      </span>
+                      <span class="nav-icon-text">Login</span>
+                    </a>
+                    <a href="/"
+                      class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge-count">10</span>
+                      </span>
+                      <span class="nav-icon-text">Wishlist</span>
+                    </a>
+                    <a href="/" class="nav-icon-link">
+                      <span class="badge nav-icon-badge">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge-count">10</span>
+                      </span>
+                      <span class="nav-icon-text">Cart</span>
+                    </a>
+                </div>
+              </div>
+            <!-- ----------------------- Navbar right end -------------------------- -->
+          </nav>
+    </header>
+    <main class="flex-row flex-center login-main">
+        
+            <div class="card-vertical form-card card-shadow ">
+                <div class="card-body text-md">
+                  <h1 class="card-title text-xl font-extrabold text-center">Sign Up</h1>
+                  <div class="form-container">
+                    <div class="form-element">
+                      <label class="socketui-label label-required" for="email">Email:</label>
+                      <input class="socketui-input text-sm" type="email" name="email" id="email" placeholder="xyz@abc.com" required>
+                    </div>
+                    <div class="form-element">
+                      <label class="socketui-label label-required" for="password">Password:</label>
+                      <input class="socketui-input text-sm" type="password" name="password" id="password" placeholder="******" required>
+                    </div>
+                    <div class="form-element flex-row flex-wrapped">
+                        <span>
+                            <input type="checkbox" name="terms-acceptance" id="terms-acceptance">
+                            <label for="terms-acceptance">I accept all Terms and Conditions</label>
+                        </span>                       
+                    </div>
+                    <input type="button" class="button-primary text-lg" value="Create new account">
+                    <a class="text-center link-btn button-outline-secondary" href="#">Already have an account ></a>
+                </div>
+                </div>
+              </div>
+
+    </main>
+
+</body>
+</html>
